@@ -37,3 +37,18 @@ p, b , h1,h3 {
     border-width: 2px;
     border-image-source: linear-gradient(to left, purple, orange);
 }
+
+
+.contacter{
+    background-color: rgb(240, 158, 59);
+    color: black;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, purple, orange);
+    cursor: pointer;
+}
+
+.contacter:hover {
+    color: #ffa500;
+}

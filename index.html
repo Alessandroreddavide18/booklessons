@@ -32,47 +32,46 @@
         </div>
     </nav>
 
-    <div class="container d-flex flex-column justify-content-center align-items-center my-5">
-        <h1 class="fs-3 gradient-text">Benvenuto</h1>
-        <p>Ciao, se hai ancora dubbi o è la prima volta che ti trovi qui <b class="gradient-border" onclick="window.location.href='mailto:tutorbooking1@gmail.com'">scrivimi</b> senza impegno per avere ulteriori info.
-            <br></p>
-    </div>
-
-    <div class="my-4">
-        Se hai già le idee chiare e hai già consultato il tuo tutor prenota una lezione cliccando il bottone sottostante
-    </div>
-
-    <div class="container d-flex flex-column justify-content-center align-items-center my-5">
-
-        <h4 class="fs-3 gradient-text my-4">Prenota subito una lezione</h4>
-        <div class="googlecalendar my-3">
-
-            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-            <script>
-                (function () {
-                    var target = document.currentScript;
-                    window.addEventListener('load', function () {
-                        calendar.schedulingButton.load({
-                            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0ifXZ1itqKe9yEagv1dOeYt3mwLmIF-nk2i4IRa0Y0rIchiTWW7Q5JDGqd6WQ4zSRTC3E-0lBi?gv=true',
-                            color: '#FF8C00',
-                            label: 'Fissa un appuntamento',
-                            target,
-                        });
-                    });
-                })();
-            </script>
-
+    <section class="d-flex flex-column justify-content-center align-items-center">
+        <div class="container my-5">
+            <h1 class="fs-3 gradient-text">Benvenuto</h1>
+            <p>Ciao, se hai ancora dubbi o è la prima volta che ti trovi qui <b class="contacter" onclick="window.location.href='mailto:tutorbooking1@gmail.com'">scrivimi qui</b> senza impegno per avere ulteriori info.
+                <br></p>
         </div>
-
+    
         <div class="my-4">
-
+          <p>Se hai già le idee chiare e hai già consultato il tuo tutor prenota una lezione cliccando il bottone sottostante</p>  
         </div>
-
-        <div class="nb my-5">
-            <b class="gradient-text">Nota Bene:</b> <p style="font-size:smaller;">Per ottimizzare l'efficacia delle tue lezioni, ti invitiamo a consultare il tutor prima di effettuare prenotazioni dirette attraverso il sito. La tua collaborazione è essenziale per garantire il funzionamento ottimale del sistema e per massimizzare il rendimento delle lezioni. </p> 
+    
+        <div class="container my-5">
+            <h4 class="fs-3 gradient-text my-4">Prenota subito una lezione</h4>
+            <div class="googlecalendar my-3">
+                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                <script>
+                    (function () {
+                        var target = document.currentScript;
+                        window.addEventListener('load', function () {
+                            calendar.schedulingButton.load({
+                                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0ifXZ1itqKe9yEagv1dOeYt3mwLmIF-nk2i4IRa0Y0rIchiTWW7Q5JDGqd6WQ4zSRTC3E-0lBi?gv=true',
+                                color: '#FF8C00',
+                                label: 'Fissa un appuntamento',
+                                target,
+                            });
+                        });
+                    })();
+                </script>
+            </div>
+    
+            <div class="my-4">
+    
+            </div>
+    
+            <div class="nb my-5">
+                <b class="gradient-text">Nota Bene:</b> <p style="font-size:smaller;">Per ottimizzare l'efficacia delle tue lezioni, ti invitiamo a consultare il tutor prima di effettuare prenotazioni dirette attraverso il sito. La tua collaborazione è essenziale per garantire il funzionamento ottimale del sistema e per massimizzare il rendimento delle lezioni. </p> 
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
