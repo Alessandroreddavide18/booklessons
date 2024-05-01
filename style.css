@@ -8,7 +8,9 @@ p, b , h1,h3 {
 
 
 .navbar {
+    position: sticky;
     background-color: black !important;
+    margin-bottom: 2px solid orange;
 }
 
 .navlink {
