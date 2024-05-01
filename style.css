@@ -54,8 +54,10 @@ p, b , h1,h3 {
 }
 
 .gradient-hr {
-    height: 2px;
-    border: 2px;
+    border: none;
+    height: 4px;
     background: linear-gradient(to right, purple, orange);
+    margin: 20px 0;
 }
+
 
