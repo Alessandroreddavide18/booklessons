@@ -30,6 +30,8 @@ p, b , h1,h3 {
 }
 
 .gradient-border {
+    background-color: rgb(240, 158, 59);
+    color: black;
     border: 3px solid;
     border-image-slice: 1;
     border-width: 2px;
