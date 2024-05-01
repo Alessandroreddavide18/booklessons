@@ -53,13 +53,12 @@ p, b , h1,h3 {
     color: #ffa500;
 }
 
-.gradient-hr {
+hr{
     border: none;
     height: 4px;
     background: linear-gradient(to right, purple, orange);
     margin: 20px 0;
     width: 100%;
 }
-
 
 
