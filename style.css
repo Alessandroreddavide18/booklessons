@@ -55,7 +55,7 @@ p, b , h1,h3 {
 
 .gradient-hr {
     height: 2px;
-    border: none;
+    border: 2px;
     background: linear-gradient(to right, purple, orange);
 }
 
