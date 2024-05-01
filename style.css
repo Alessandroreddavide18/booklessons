@@ -52,3 +52,11 @@ p, b , h1,h3 {
 .contacter:hover {
     color: #ffa500;
 }
+
+
+
+.gradient-hr {
+    border: 0;                  
+    height: 2px;               
+    background: linear-gradient(to right, purple, orange); 
+}
