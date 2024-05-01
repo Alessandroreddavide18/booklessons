@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio di Alessandro</title>
+    <style>
+        .gradient-text {
+            background: linear-gradient(to right, purple, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gradient-border {
+            border: 3px solid;
+            border-image-slice: 1;
+            border-width: 2px;
+            border-image-source: linear-gradient(to left, purple, orange);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <!-- Banner Section -->
+        <section id="banner" class="text-center">
+            <!-- <img src="/Me.png" alt="Alessandro Reddavide" class="img-fluid rounded-circle"
+                style="height: 300px; width: 300px;"> -->
+            <h1 class="gradient-text display-1">Alessandro Reddavide</h1>
+            <p class="fs-3 gradient-text">
+                Code & Create , Relax & Iterate 🚀
+            </p>
+            <p class="text-light fs-5">
+                Sviluppatore software appassionato di nuove tecnologie, con particolare attenzione allo sviluppo
+                back-end utilizzando Django e SpringBoot, e front-end con React e Angular.
+            </p>
+            <button onclick="window.location.href='mailto:tutorbooking1@gmail.com'" class="btn btn-primary mt-3">
+                Contact Me
+            </button>
+        </section>
+
+        <!-- Languages and Frameworks Section -->
+        <section id="languages-frameworks" class="my-5">
+            <h2 class="text-white text-center fs-1 fw-bold mb-3">Languages & Frameworks</h2>
+            <p class="text-center gradient-text fs-4 mb-5">EXPLORE NOW</p>
+            <div class="d-flex flex-wrap justify-content-center">
+                <button class="btn btn-outline-light gradient-border m-2">Angular</button>
+                <button class="btn btn-outline-light gradient-border m-2">Java</button>
+                <button class="btn btn-outline-light gradient-border m-2">Python</button>
+                <button class="btn btn-outline-light gradient-border m-2">Django</button>
+                <button class="btn btn-outline-light gradient-border m-2">React</button>
+                <button class="btn btn-outline-light gradient-border m-2">JavaScript</button>
+                <button class="btn btn-outline-light gradient-border m-2">TypeScript</button>
+                <button class="btn btn-outline-light gradient-border m-2">PHP</button>
+                <button class="btn btn-outline-light gradient-border m-2">Laravel</button>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="my-5">
+            <h2 class="text-white text-center fs-1 fw-bold">EXPERIENCE</h2>
+            <p class="text-center gradient-text fs-4 mb-5">EXPLORE NOW</p>
+            <div class="text-center">
+                <p class="text-light fs-5"> Attualmente lavoro come sviluppatore software presso Software-Inside,
+                    contribuendo con il mio team alla realizzazione di nuove funzionalità per le applicazioni web.
+                    Partendo dalle richieste dei clienti che si interfacciano con la nostra realtà, lavoriamo insieme
+                    per dare vita a soluzioni innovative
+                    <br />
+                    <br />
+                    La mia esperienza con React e Angular mi e' tornata utile per creare pagine web efficienti,
+                    scalabili e dinamiche, offrendo eccellenti esperienze utente. Portandomi ad acquisire una buona
+                    comprensione dell'architettura basata su componenti e della gestione dello stato. Restando sempre
+                    vigile sulle ultime tendenze e tecnologie di sviluppo web.
+                </p>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
