@@ -69,3 +69,18 @@ hr {
     margin: 20px 0;
     width: 100%;
 }
+
+.googlecalendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .googlecalendar {
+        width: 100%;
+    }
+}
