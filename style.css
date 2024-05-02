@@ -2,7 +2,10 @@ body {
     background-color: black;
 }
 
-p, b , h1,h3 {
+p,
+b,
+h1,
+h3 {
     color: white;
 }
 
@@ -38,8 +41,14 @@ p, b , h1,h3 {
     border-image-source: linear-gradient(to left, purple, orange);
 }
 
+.gradient-border:hover {
+    border-image-source: linear-gradient(to right, purple, orange);
+    background-color: orange;
+    color: black;
+}
 
-.contacter{
+
+.contacter {
     background-color: rgb(240, 158, 59);
     color: black;
     border: 3px solid;
@@ -50,14 +59,13 @@ p, b , h1,h3 {
 }
 
 .contacter:hover {
-    color: #ffa500;
+    color: white;
 }
 
-hr{
+hr {
     border: none;
     height: 4px;
     background: linear-gradient(to right, purple, orange);
     margin: 20px 0;
     width: 100%;
 }
-
