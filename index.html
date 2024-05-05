@@ -15,6 +15,7 @@
 
 <body>
 
+
     <!-- Navbar -->
     <nav class="bg-dark navbar navbar-expand-lg bg-body-tertiary fixed">
         <div class="container-fluid">
@@ -50,33 +51,21 @@
         </p>
 
         <div class="d-flex flex-column justify-content-center align-items-centermy-4">
-            <p class="mx-3">Se hai già le idee chiare e hai già consultato il tuo tutor prenota una lezione cliccando il
-                bottone sottostante</p>
+            <p class="mx-3">Se hai già le idee chiare e hai già consultato il tuo tutor prenota una lezione consultando
+                il calendario sotto</p>
+        </div>
+
+        <h4 class="fs-3 gradient-text my-4" style="font-size: 25px;">Prenota subito una lezione</h4>
+
+        <div class="googlecalendar container-fluid bg-light">
+            <iframe
+                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0ifXZ1itqKe9yEagv1dOeYt3mwLmIF-nk2i4IRa0Y0rIchiTWW7Q5JDGqd6WQ4zSRTC3E-0lBi?gv=true"
+                style="border: 0" width="100%" height="600" frameborder="0"></iframe>
         </div>
 
 
         <div class="container d-flex flex-column justify-content-center align-items-center my-2">
             <hr>
-            <div class="googlecalendar d-flex flex-column justify-content-center align-items-center my-2">
-                <h4 class="fs-3 gradient-text my-4" style="font-size: 25px;">Prenota subito una lezione</h4>
-                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-                <script>
-                    (function () {
-                        var target = document.currentScript;
-                        window.addEventListener('load', function () {
-                            calendar.schedulingButton.load({
-                                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0ifXZ1itqKe9yEagv1dOeYt3mwLmIF-nk2i4IRa0Y0rIchiTWW7Q5JDGqd6WQ4zSRTC3E-0lBi?gv=true',
-                                color: '#FF8C00',
-                                label: 'Fissa un appuntamento',
-                                target,
-
-                            });
-                        });
-                    })();
-                </script>
-            </div>
-
             <div class="nb d-flex flex-column justify-content-center align-items-center my-1">
                 <b class="gradient-text">Nota Bene:</b><i>
                     <p class=" d-flex flex-column text-center justify-content-center align-items-center my-2 mx-2"
